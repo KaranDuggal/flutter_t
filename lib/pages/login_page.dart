@@ -1,3 +1,4 @@
+import 'package:d_stor/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -34,6 +35,7 @@ class LoginPage extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () {
                       print("duggal");
+                      Navigator.pushNamed(context, Routes.homeRoute);
                     },
                     child: Text('Login'),
                     style: TextButton.styleFrom(
