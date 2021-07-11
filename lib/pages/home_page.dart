@@ -1,3 +1,4 @@
+import 'package:d_stor/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -11,7 +12,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('data'),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
       body: Center(
         child: Container(
           child: Text("welcome duggal stor day = $name"),
