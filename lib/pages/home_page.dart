@@ -10,6 +10,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        // backgroundColor: Colors.white,
+        // iconTheme: IconThemeData(color: Colors.black),
         title: Text('data'),
       ),
       drawer: MyDrawer(),
